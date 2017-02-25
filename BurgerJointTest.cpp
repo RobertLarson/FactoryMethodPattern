@@ -9,7 +9,7 @@ int main()
 {
 	BurgerJoint * mcDonalds = new McDonalds();
 
-    Burger * mcDonaldsCheeseBurger = mcDonalds->OrderBurger(std::string("cheeseburger"));
+        Burger * mcDonaldsCheeseBurger = mcDonalds->OrderBurger(std::string("cheeseburger"));
 	std::cout << "I just ordered a " << mcDonaldsCheeseBurger->GetName() << "\n\n";
 	delete mcDonaldsCheeseBurger;
 
